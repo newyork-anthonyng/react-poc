@@ -1,0 +1,22 @@
+.button {
+    align-items: center;
+    border: 1px solid #46b0f0;
+    border-radius: 100%;
+    color: #46b0f0;
+    cursor: pointer;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    width: 24px;
+}
+
+.button:hover {
+    background-color: #46b0f0;
+    color: white;
+}
+
+.button:disabled {
+    background-color: #d1d1d1;
+    border: #d1d1d1;
+    color: white;
+}

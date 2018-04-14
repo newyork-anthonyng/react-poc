@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+}
+
+.input {
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 44px;
+    padding: 10px 24px 10px 10px;
+    width: 100%;
+}
+
+.inputError {
+    border: 1px solid red;
+    border-bottom: 4px solid red;
+}
+
+.inputIcon {
+    padding-left: 34px;
+}
+
+.clearButton {
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    border: 0;
+    height: 100%;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
